@@ -1,16 +1,16 @@
 [rsschool-cv]
-****
+
 
 # Abrashkina Alina
-****
 
 
-## Junior Frontend Developer ##
-****
+
+**Junior Frontend Developer**
 
 
-### Contacts ###
-****
+
+## Contacts ##
+
 
 
 **E-mail** : lina.lina.malinaa@gmail.com
@@ -25,8 +25,7 @@
 **Discord**: [fluffymuff1n] (https://discordapp.com/users/fluffymuff1n/)
 
 
-### About me ###
-****
+## About me ##
 
 
 Six months ago I graduated from university and moved to another country. 
@@ -36,8 +35,7 @@ see the results of my work. There is still a lot to learn, but I believe that my
 persistence and responsibility will allow me to become a frontend developer.
 
 
-### Skills ###
-****
+## Skills ##
 
 
 * HTML5
@@ -58,8 +56,8 @@ persistence and responsibility will allow me to become a frontend developer.
 * Figma
 
 
-### Code examples###
-****
+## Code examples ##
+
 
 ```javascript
 
@@ -82,18 +80,16 @@ let output = [];
 ```
 
 
-### Education ###
-****
+## Education ##
 
 
 **State University of Land Use Planning**
 
 
-* g"Cadastral engineer"
+* "Cadastral engineer"
 
 
-### Languages ###
-****
+## Languages ##
 
 
 * **Russian** native
