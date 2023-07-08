@@ -1,8 +1,5 @@
-[rsschool-cv]
-
 
 # Abrashkina Alina
-
 
 
 **Junior Frontend Developer**
