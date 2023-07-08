@@ -16,13 +16,13 @@
 **E-mail** : lina.lina.malinaa@gmail.com
 
 
-**Telegram**: [Alinabrbr] (https://t.me/Alinabrbr)
+**Telegram**: [Alinabrbr](https://t.me/Alinabrbr)
 
 
-**GitHub**: [Alinabrbr] (https://github.com/Alinabrbr)
+**GitHub**: [Alinabrbr](https://github.com/Alinabrbr)
 
 
-**Discord**: [fluffymuff1n] (https://discordapp.com/users/fluffymuff1n/)
+**Discord**: [fluffymuff1n](https://discordapp.com/users/fluffymuff1n/)
 
 
 ## About me ##
