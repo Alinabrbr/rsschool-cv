@@ -104,12 +104,8 @@ li::marker {
 }
 
 li {
-    list-style-type: none; /* Убираем маркеры у списка */
+    list-style-type: none;
 }
 li:before {
-    content: "ƥ "; /* Добавляем в качестве маркера символ */
-}
-
-ul {
-    list-style-image: url("path/img.png");
+    content: "-";
 }
