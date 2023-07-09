@@ -180,12 +180,15 @@ li::marker {
 .footer_link::after {
     color: #cccccc;
 }
+
 a {
     transition: .3s;
 }
+
 a:-webkit-any-link {
     color: #2b4052;
 }
+
 a:-webkit-any-link:focus-visible {
     outline: none;
 }
