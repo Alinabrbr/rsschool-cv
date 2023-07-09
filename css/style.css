@@ -1,38 +1,71 @@
+@font-face {
+    font-weight: 300;
+    font-family: Quicksand-light;
+    src: url("../fonts/Quicksand-Light.ttf");
+}
+
+@font-face {
+    font-weight: 400;
+    font-family: Quicksand;
+    src: url("../fonts/Quicksand-Regular.ttf");
+}
+
+@font-face {
+    font-weight: 500;
+    font-family: Quicksand-medium;
+    src: url("../fonts/Quicksand-Medium.ttf");
+}
+
+@font-face {
+    font-weight: 700;
+    font-family: Quicksand-semibold;
+    src: url("../fonts/Quicksand-SemiBold.ttf");
+}
+
+@font-face {
+    font-weight: 900;
+    font-family: Quicksand-bold;
+    src: url("../fonts/Quicksand-Bold.ttf");
+}
+
 * {
     margin: 0;
     padding: 0;
+    font-family: Quicksand, serif;
 }
 
-
-
-.header {
-    background-color: #778f94;
-    padding: 20px 10px 20px 10px;
+.header_title {
+    background-color: #ffffff;
     text-align: center;
+    width: 60%;
+    margin: auto;
 }
 
 .columns {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: nowrap;
-
 }
 
 .first-column {
-    background: #aab7bd;
+    background-color: #2b4052;
     box-sizing: border-box;
-    width: 40%;
+    width: 30%;
+    color: #99506E;
+    position: relative;
 }
 
 .second-column {
-    padding: 0 0 20px 150px;
+    background-color: #ffffff;
+    padding: 0 0 20px 80px;
     box-sizing: border-box;
-    width: 60%;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: space-evenly;
+    width: 30%;
+    color: #2b4052;
 }
 
 .first-column_image {
@@ -41,13 +74,15 @@
     height: 600px;
     background-position: top;
     background-repeat: no-repeat;
-    background-size: 600px;
+    background-size: 460px;
+    z-index: 2;
+    position: relative;
 }
 
 .first-column_about {
     margin: 20px 0 20px 0;
     padding: 0 15px;
-    text-align: center;
+    text-align: start;
 }
 
 .first-column_languages {
@@ -63,6 +98,10 @@
 
 .second-column_skills {
     padding: 20px 0 40px 0;
+    z-index: 1;
+    position: relative;
+    line-height: 1.5;
+    font-size: 20px;
 }
 
 .second-column_code {
@@ -71,41 +110,121 @@
 
 .second-column_education {
     padding: 10px 0 30px 0;
+    position: relative;
+    z-index: 2;
 }
-
 
 .footer {
     display: flex;
     justify-content: space-around;
-    background-color: #778f94;
-    padding: 20px 10px 20px 10px;
+    background-color: #ffffff;
+    padding: 30px 0 30px 0;
     align-items: center;
+    width: 60%;
+    margin: auto;
+    font-family: Quicksand-normal;
+    font-size: 20px;
 }
 
-h2 {
+.column_title {
+    font-size: 30px;
     margin: 0 0 10px 0;
 }
 
-h1 {
+.title {
+    color: #99506E;
+    font-family: Quicksand-bold;
+    font-size: 60px;
+}
+.subtitle {
+    padding-bottom: 10px;
+    color: #99506E;
+    font-family: Quicksand-semibold;
+    font-size: 20px;
+}
+
+.about_text {
     margin-bottom: 10px;
+    line-height: 1.6;
+    font-size: 20px;
+}
+
+.languages_text {
+    line-height: 1.5;
+    font-size: 20px;
+}
+
+.education_text {
+    line-height: 1.5;
+    font-size: 20px;
+}
+
+ul {
+    list-style-image: url("../images/icon/icon-done.png");
+    padding: 0 20px;
+    z-index: 2;
+    position: relative;
 }
 
 li {
-    line-height: 2.0;
-}
-
-.first-column_about_text {
-    margin-bottom: 10px;
-    line-height: 1.5;
+    line-height: 1;
+    margin-bottom: 20px;
+    padding-left: 5px;
 }
 
 li::marker {
-    text-align: center;
+    padding-top: 10px;
 }
 
-li {
-    list-style-type: none;
+.footer_link::after {
+    color: #cccccc;
 }
-li:before {
-    content: "-";
+a {
+    transition: .3s;
+}
+a:-webkit-any-link {
+    color: #2b4052;
+}
+a:-webkit-any-link:focus-visible {
+    outline: none;
+}
+
+a:hover {
+    color: #99506E;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+a:focus-visible {
+    color: #99506E;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.circle {
+    background-color: #99506E;
+    border-radius: 50%;
+    z-index: 0;
+    position: absolute;
+}
+
+.skills_circle {
+    right: 0;
+    top: 36%;
+    width: 200px;
+    height: 200px;
+}
+
+.image_circle {
+    left: -10%;
+    top: -4%;
+    width: 100px;
+    height: 100px;
+}
+
+.education_circle {
+    width: 75px;
+    height: 75px;
+    left: -12%;
+    bottom: -9%;
 }
