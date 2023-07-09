@@ -111,7 +111,6 @@
 .second-column_education {
     padding: 10px 0 30px 0;
     position: relative;
-    z-index: 2;
 }
 
 .footer {
@@ -157,6 +156,8 @@
 .education_text {
     line-height: 1.5;
     font-size: 20px;
+    position: relative;
+    z-index: 2;
 }
 
 ul {
