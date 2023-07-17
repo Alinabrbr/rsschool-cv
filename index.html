@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CV - Abrashkina Alina</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="css/prism.css">
+</head>
+
+<body>
+
+<nav class="nav">
+
+    <ul class="nav-list">
+        <li class="nav-item"><a href="#about-me" class="nav-link">About me</a></li>
+        <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+        <li class="nav-item"><a href="#code-examples" class="nav-link">Code examples</a></li>
+        <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+        <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+    </ul>
+
+</nav>
+
+<header class="header">
+
+    <div class="header_title">
+        <h1 class="title">Abrashkina Alina</h1>
+        <p class="subtitle">Junior Front-End Developer</p>
+    </div>
+</header>
+<main class="columns">
+
+    <div class="first-column column">
+
+        <div class="circle image_circle"></div>
+        <div class="first-column_image" title="Personal Photo"></div>
+
+        <div id="about-me" class="first-column_about">
+            <h2 class="column_title">About me</h2>
+            <p class="about_text">Six months ago I graduated from university and moved to another country.
+                Frontend interested me because I can work remotely and constantly evolve.
+                When I write code, I feel that I am doing something useful. And I can immediately
+                see the results of my work. There is still a lot to learn,
+                but I believe that my ambition, persistence and responsibility
+                will allow me to become a Front-End Developer.
+            </p>
+        </div>
+
+        <div class="first-column_languages">
+            <h2 class="column_title">Languages</h2>
+            <p class="languages_text"><b>Russian:</b> native</p>
+            <p class="languages_text"><b>English:</b> A1 (in progress A2)</p>
+        </div>
+    </div>
+
+    <div class="second-column column">
+
+        <div id="skills" class="second-column_skills">
+            <h2 class="column_title">Skills</h2>
+            <ul>
+                <li>
+                    HTML5, CSS3
+                </li>
+                <li>
+                    JavaScript
+                </li>
+
+                <li>
+                    Git, GitHub
+                </li>
+
+                <li>
+                    VS Code, WebStorm
+                </li>
+
+                <li>
+                    Figma
+                </li>
+            </ul>
+
+            <div class="circle skills_circle"></div>
+        </div>
+
+        <div id="code-examples" class="second-column_code">
+
+            <h2 class="column_title">Code examples</h2>
+            <pre><code class="language-js">
+        //input [0,1,0,1,0,1,1,0,1,1,1]
+        //output [1,0,1,0,1,0,0,1,0,0,0]
+
+
+        let input = [0,1,0,1,0,1,1,0,1,1,1];
+        let output = [];
+
+        for (let i = 0; i &lt; input.length; i++) {
+            if (input[i] === 0) {
+                output.push(input[i] + 1);
+            } else {
+                output.push(input[i] - 1);
+            }
+        }
+
+        console.log([1,0,1,0,1,0,0,1,0,0,0]);
+            </code></pre>
+            <p><a href="https://alinabrbr.github.io/rsschool-cv/">Project CV</a></p>
+        </div>
+
+        <div id="education" class="second-column_education">
+
+            <div class="circle education_circle"></div>
+
+            <h2 class="column_title">Education</h2>
+            <p class="education_text">State University of Land Use Planning</p>
+            <p class="education_text">"Cadastral engineer"</p>
+
+        </div>
+    </div>
+
+</main>
+
+<footer class="footer">
+
+    <ul class="footer-list">
+
+        <li class="footer-item"><a href="mailto:lina.lina.malinaa@gmail.com" class="footer-link">E-mail</a></li>
+        <li class="footer-item"><a href="https://t.me/Alinabrbr" class="footer-link">Telegram</a></li>
+        <li class="footer-item">
+            <a href="https://rs.school/js/" class="footer-link">created in 2023
+                <img src="images/rs_school_js-logo.svg">
+            </a>
+        </li>
+        <li class="footer-item"><a href="https://github.com/Alinabrbr" class="footer_link">GitHub</a></li>
+        <li class="footer-item"><a href="https://instagram.com/via.la.lina?igshid=MmIzYWVlNDQ5Yg=="
+                                   class="footer-link">Instagram</a></li>
+
+    </ul>
+
+</footer>
+<script src="javascript/prism.js"></script>
+
+</body>
+</html>
